@@ -66,7 +66,7 @@ function at_codex_preprocess_page(&$vars) {
     $vars['branding_attributes_array']['class'][] = 'site-name-hidden';
   }
   if (isset($vars['node']->type)) {
-		//ajout du template page--node--projet.tpl.php
+		//ajout template page--node--projet.tpl.php
         $vars['theme_hook_suggestions'][] = 'page__node__' . $vars['node']->type;
     }
 }
