@@ -1,0 +1,183 @@
+/* AT Styles
+ * NOTICE: This is a commercial Drupal theme. Elements of this theme including this field
+ * are licensed under a standard commercial license which does not permit redistribution.
+ */
+
+/* Custom image margins */
+.image-right figure,
+.ia-r .field-type-image figure,
+.iat-r .node-teaser .field-type-image figure {
+  margin: 4px 0 10px 20px;
+}
+.image-left figure,
+.ia-l .field-type-image figure,
+.iat-l .node-teaser .field-type-image figure {
+  margin: 4px 20px 10px 0;
+}
+
+/* HL - Left */
+.hl-l #branding {
+  float: left;
+}
+.hl-l #logo {
+  margin: 0;
+  padding: 5px 10px 0 0;
+}
+.hl-l #menu-wrapper {
+  float: right;
+  margin-right: 10px;
+}
+
+/* HL - Right */
+.hl-r #branding {
+  float: right;
+}
+.hl-r #logo {
+  float: right;
+  margin: 0;
+  padding: 5px 0 0 10px;
+}
+.hl-r #site-name,
+.hl-r #site-slogan {
+  text-align: right;
+}
+.hl-r #menu-wrapper {
+  float: left;
+  margin-left: 10px;
+}
+.hl-r .region-header .block {
+  float: right;
+}
+.hl-r .region-header .block-menu ul.menu li {
+  padding: 0 0 0 15px;
+}
+
+/* HL - Centered */
+.hl-c #branding {
+  float: none;
+  margin: auto;
+  text-align: center;
+}
+.hl-c #logo,
+.hl-c #header hgroup,
+.hl-c #site-name,
+.hl-c #site-slogan {
+  float: none;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+}
+.hl-c #menu-wrapper,
+.hl-c #region-header-wrapper .block{
+  display: table;
+  text-align: center;
+  margin: auto;
+  float: none;
+  clear: both;
+}
+.hl-c #header hgroup {
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+.hl-c #menu-wrapper li a,
+.hl-c #region-header-wrapper .block li a {
+  text-align: left;
+}
+
+/* Box shadows */
+.sc-n #page  {
+  -webkit-box-shadow:0 0 0 transparent;
+  -moz-box-shadow:0 0 0 transparent;
+  box-shadow:0 0 0 transparent;
+}
+.bs-l #page {
+  -webkit-box-shadow:0 0 10px rgba(76, 76, 76, 0.7);
+  -moz-box-shadow:0 0 10px rgba(76, 76, 76, 0.7);
+  box-shadow:0 0 10px rgba(76, 76, 76, 0.7);
+}
+.bs-d #page  {
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.9);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Bullets */
+.mb-n .block ul.menu {
+  padding: 0;
+  margin: 0;
+}
+.mb-n ul li.leaf,
+.mb-n ul li.collapsed,
+.mb-n ul li.expanded {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+.mb-ah ul.menu {
+  padding: 0 0 0 1.1em;
+  margin: 0;
+}
+.mb-ah ul li.leaf,
+.mb-ah ul li.collapsed,
+.mb-ah ul li.expanded {
+  list-style-image: url(images/arrow-head.png);
+}
+.mb-ad ul.menu {
+  padding: 0 0 0 1.2em;
+  margin: 0;
+}
+.mb-ad ul li.leaf,
+.mb-ad ul li.collapsed,
+.mb-ad ul li.expanded {
+  list-style-image: url(images/arrow-double.png);
+}
+.mb-ca ul.menu {
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+.mb-ca ul li.leaf,
+.mb-ca ul li.collapsed,
+.mb-ca ul li.expanded {
+  list-style-image: url(images/arrow-circle.png);
+}
+.mb-fa ul.menu {
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+.mb-fa ul li.leaf,
+.mb-fa ul li.collapsed,
+.mb-fa ul li.expanded {
+  list-style-image: url(images/arrow-fat.png);
+}
+.mb-sa ul.menu {
+  padding: 0 0 0 1.6em;
+  margin: 0;
+}
+.mb-sa ul li.leaf,
+.mb-sa ul li.collapsed,
+.mb-sa ul li.expanded {
+  list-style-image: url(images/arrow-skinny.png);
+}
+
+/* Background textures */
+body.bb-n #secondary-content-wrapper .image-overlay,
+body.bb-n #tertiary-content-wrapper .image-overlay {
+  background-image: none;
+}
+body.bb-h #secondary-content-wrapper .image-overlay,
+body.bb-h #tertiary-content-wrapper .image-overlay {
+  background-image: url(images/hatch.png);
+}
+body.bb-vl #secondary-content-wrapper .image-overlay,
+body.bb-vl #tertiary-content-wrapper .image-overlay {
+  background-image: url(images/line-vert.png);
+}
+body.bb-hl #secondary-content-wrapper .image-overlay,
+body.bb-hl #tertiary-content-wrapper .image-overlay {
+  background-image: url(images/line-horiz.png);
+}
+body.bb-g #secondary-content-wrapper .image-overlay,
+body.bb-g #tertiary-content-wrapper .image-overlay {
+  background-image: url(images/grid.png);
+}

@@ -1,0 +1,27 @@
+/* Tablet landscape */
+
+#header-wrapper,
+#header-wrapper.with-header-region  {
+  padding: 20px 0 0;
+}
+
+#branding {
+  margin-bottom: 15px;
+}
+
+.hl-l #menu-wrapper,
+.hl-r #menu-wrapper,
+#menu-wrapper {
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  clear: both;
+  float: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+/* Superfish tweaks */
+.sf-menu.sf-style-default.sf-navbar {
+  margin-bottom: 0;
+}

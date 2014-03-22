@@ -1,0 +1,16 @@
+/*
+ * NOTICE: This is a commercial Drupal theme. Elements of this theme including this field
+ * are licensed under a standard commercial license which does not permit redistribution. 
+ */
+.hl-c #menu-wrapper .block,
+.hl-c #menu-wrapper .block ul,
+.hl-c #region-header-wrapper .block,
+.hl-c #region-header-wrapper .block ul {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+#header-wrapper {
+  position: relative;
+  z-index: 100;
+}
